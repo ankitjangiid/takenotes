@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Takenotes</title>
+
+
+
+    <!------------------ Favicon ------------------>
+    <link rel="icon" href="images/favicon.ico">
+
+
+
+
+    <!------------------ CSS Stylesheets ------------------>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+
+    <!------------------ Font Awesome ------------------>
+    <script src="https://kit.fontawesome.com/eef2ee0cb4.js" crossorigin="anonymous"></script>
+
+
+
+    <!------------------ Google Fonts ------------------>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- for quote -->
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700;800&display=swap" rel="stylesheet">
+
+
+    <!------------------ Javascript ------------------>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+
+</head>
+
+<body>
+
+    <!------------------ Heading ------------------>
+
+    <section id="title">
+
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <a class="navbar-brand navbar-color-change" href="index.html">takenotes</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#footer">Contact</a>
+
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#pricing">Pricing</a>
+
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#cta">Download</a>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <h1 class="heading">Write whats on your mind any time.</h1>
+
+                    <button type="button" class="btn btn-dark btn-lg" style="margin: 8% 3% 5% 0;">
+                        <i class="fab fa-apple"></i> Download</button>
+
+                    <button type="button" class="btn btn-outline-light btn-lg download-button"><i
+                            class="fab fa-google-play"></i>
+                        Download</button>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <img id="iphone" src="images/iphone_mockup.png" alt="iphone-mockup">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!------------------ Features ------------------>
+
+    <section id="features">
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-lg-4 feature-hover">
+
+                    <i class="fas fa-brain fa-3x features-icon"></i>
+                    <h3 class="features-heading">Remember everything important</h3>
+                    <p class="features-paragraph">A single place for your notes, ideas, lists and reminders.</p>
+
+                </div>
+
+                <div class="col-lg-4 feature-hover">
+
+                    <i class="fas fa-tasks fa-3x features-icon"></i>
+                    <h3 class="features-heading">Stay Organized</h3>
+                    <p class="features-paragraph">Plan, keep records, and manage projects from any device-even offline.
+                    </p>
+
+                </div>
+
+                <div class="col-lg-4 feature-hover">
+
+                    <i class="fas fa-users fa-3x features-icon"></i>
+                    <h3 class="features-heading">Collaboration with your team</h3>
+                    <p class="features-paragraph">Manage projects, deadlines, client, and meetings with ease.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!------------------ Testimonials ------------------>
+
+    <section id="testimonials">
+
+        <h2 class="testimonial-top">What people say about us</h2>
+
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+
+            <!-- for indication of page -->
+            <ol class="carousel-indicators">
+                <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+                <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+                <li data-target="#testimonial-carousel" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <h1 class="testimonial-quote">"</h1>
+                    <h2 class="testimonials-heading">My work life became so easy and organized after using takenotes now
+                        i can easily maintain my meetings.
+                    </h2>
+                    <img class="testimonial-image" src="images/testimonial-1.png" alt="testimonial-profile">
+                    <em>Ema, New York</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h1 class="testimonial-quote">"</h1>
+                    <h2 class="testimonials-heading">Takenotes is a best place to set reminders, take notes and to set
+                        goles.</h2>
+                    <img class="testimonial-image" src="images/testimonial-2.png" alt="testimonial-profile">
+                    <em>Henry, Paris</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h1 class="testimonial-quote">"</h1>
+                    <h2 class="testimonials-heading">I'm a collage student and takenotes helped me a lot in studies by
+                        organizing all my class notes.</h2>
+                    <img class="testimonial-image" src="images/testimonial-3.png" alt="testimonial-profile">
+                    <em>Ajay, Mumbai</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h1 class="testimonial-quote">"</h1>
+                    <h2 class="testimonials-heading">My favorite feature of takenotes is to automatically add reminders
+                        about meetings when i get an email.</h2>
+                    <img class="testimonial-image" src="images/testimonial-4.png" alt="testimonial-profile">
+                    <em>Andy, London</em>
+                </div>
+
+            </div>
+
+            <!-- This is for next/prev buttons -->
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Press -->
+
+    <!-- <section id="press">
+        <img src="images/techcrunch.png" alt="tc-logo">
+        <img src="images/tnw.png" alt="tnw-logo">
+        <img src="images/bizinsider.png" alt="biz-insider-logo">
+        <img src="images/mashable.png" alt="mashable-logo">
+
+    </section> -->
+
+
+    <!------------------ Pricing ------------------>
+
+    <section id="pricing">
+
+        <h2 class="pricing-heading">Choose a plan</h2>
+        <p class="pricing-paragraph">Find the takenotes solution that fits your needs.</p>
+
+
+        <div class="row">
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+
+                    <div class="card-header">
+                        <h3>Basic</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <h2>Free</h2>
+                        <p>60MB upload limit /mo</p>
+                        <p>2 device login limit</p>
+                        <p>No Collaboration</p>
+                        <p>No offline access</p>
+                        <button type="button" class="btn btn-outline-info btn-lg btn-block btn-price-1">Sign
+                            Up</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+
+                    <div class="card-header">
+                        <h3>Premium</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <h2>₹149 / mo</h2>
+                        <p>10GB upload limit /mo</p>
+                        <p>5 device login limit</p>
+                        <p>Team Collaboration</p>
+                        <p>Offline access on mobile</p>
+                        <button type="button" class="btn btn-info btn-lg btn-block btn-price">Sign Up</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pricing-column col-lg-4">
+                <div class="card">
+
+                    <div class="card-header">
+                        <h3>Business</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <h2>₹499 / mo</h2>
+                        <p>Unlimited upload</p>
+                        <p>Unlimited devices</p>
+                        <p>Team Collaboration</p>
+                        <p>Offline access on mobile & desktop</p>
+                        <button type="button" class="btn btn-info btn-lg btn-block btn-price">Sign Up</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!------------------ Call to Action ------------------>
+
+    <section id="cta">
+
+        <h3 class="cta-heading">Sign up for takenotes Today</h3>
+        <p class="cta-paragraph">Capture ideas and inspiration from anywhere and manage tasks with ease.</p>
+        <button type="button" class="btn btn-dark btn-lg" style="margin: 7% 2% 5% 0;"><i class="fab fa-apple"></i>
+            Download</button>
+        <button type="button" class="btn btn-outline-info btn-lg dwn-btn">
+            <i class="fab fa-google-play"></i> Download
+        </button>
+
+    </section>
+
+
+    <!------------------ Footer ------------------>
+
+    <footer id="footer">
+        <a href="mailto:ankitjangidrps@gmail.com"><i class="far fa-envelope fa-2x social-icon-mail"></i></a>
+        <a href="https://www.instagram.com/ankitjangiid/"><i class="fab fa-instagram fa-2x social-icon-insta"></i></a>
+        <a href="https://twitter.com/ankitjangiid"><i class="fab fa-twitter fa-2x social-icon-twi"></i></a>
+        <a href="https://www.linkedin.com/in/-ankitjangid/">
+            <i class="fab fa-linkedin-in fa-2x social-icon-lind"></i></a>
+
+        <p class="footer-p">© All rights reserved. Made by <a class="footer-link"
+                href="http://ankitjangiid.github.io/profile-site" style="text-decoration: none;">Ankit
+                Jangid</a></p>
+
+
+
+    </footer>
+
+
+</body>
+
+</html>
