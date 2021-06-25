@@ -1,2 +1,2 @@
 # takenotes
-Link: https://ankitjangiid.github.io/takenotes/
+Live link: https://ankitjangiid.github.io/takenotes/
